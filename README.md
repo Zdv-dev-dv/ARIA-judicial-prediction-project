@@ -1,8 +1,5 @@
 # Predicting Judicial Decisions of the European Court of Human Rights
 
-This README file was generated on 2026-03-18 by Zoé de Vries.  
-Last updated: 2026-03-18.
-
 ---
 
 ## GENERAL INFORMATION
@@ -10,11 +7,12 @@ Last updated: 2026-03-18.
 **Repository title:** Predicting Judicial Decisions of the European Court of Human Rights: A Machine Learning Pipeline
 
 **Author:** Zoé de Vries  
-**Contact:** [zoe.de-vries@institution.fr] *(replace with current institutional address)*  
-**Affiliation:** ENS Paris-Saclay — ARIA research programme
+**Contact:** zoe.de_vries@ens-paris-saclay.fr
+
+**Affiliation:** ENS Paris-Saclay
 
 **Associated report:**  
-de Vries, Z. (2023). *Predicting Judicial Decisions of the European Court of Human Rights* [ARIA research report]. ENS Paris-Saclay.
+de Vries, Z. (2024). *Predicting Judicial Decisions of the European Court of Human Rights* [ARIA research report] ADD LINK. ENS Paris-Saclay.
 
 **Licence:** MIT (code) — see `LICENSE`
 
@@ -24,7 +22,7 @@ de Vries, Z. (2023). *Predicting Judicial Decisions of the European Court of Hum
 
 ### Research question
 
-Can a Linear Support Vector Machine (LinearSVC) trained on TF-IDF representations of ECHR case text reliably predict whether a given article of the European Convention on Human Rights has been violated? This pipeline replicates and extends the experimental design of Medvedeva et al. (2019, 2022) using a publicly available dataset of ECHR judgements.
+Can a Linear Support Vector Machine (LinearSVC) trained on TF-IDF representations of ECtHR case text reliably predict whether a given article of the European Convention on Human Rights has been violated? This pipeline replicates and extends the experimental design of Medvedeva et al. ([2019](https://link.springer.com/article/10.1007/s10506-019-09255-y), [2022](https://link.springer.com/article/10.1007/s10506-021-09306-3)) using a publicly available dataset of ECtHR judgements.
 
 ### Articles covered
 
@@ -153,7 +151,7 @@ Results are printed to stdout (notebook) or to `time_results/<article>_time.txt`
 
 ## ADDITIONAL INFORMATION
 
-This code was written as part of the ARIA research programme at ENS Paris-Saclay (2022–2023), building on the experimental design of Medvedeva et al. (2019). The grid search script was used to determine the best TF-IDF and SVC parameters per article; those parameters are then fixed in the notebook for reproducibility and clarity.
+This code was written as part of the ARIA research programme at ENS Paris-Saclay (2024–2025), building on the experimental design of Medvedeva et al. (2019). The grid search script was used to determine the best TF-IDF and SVC parameters per article; those parameters are then fixed in the notebook for reproducibility and clarity.
 
 A known limitation of this approach is that LinearSVC with TF-IDF features treats the classification task as a bag-of-words problem and does not capture semantic structure. Results should be interpreted with reference to the class imbalance present in the original dataset.
 
