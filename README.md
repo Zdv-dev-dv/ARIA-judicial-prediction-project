@@ -12,7 +12,7 @@
 **Affiliation:** ENS Paris-Saclay
 
 **Associated report:**  
-de Vries, Z. (2024). *Predicting Judicial Decisions of the European Court of Human Rights* [ARIA research report] ADD LINK. ENS Paris-Saclay.
+de Vries, Z. (2024). *Predicting Judicial Decisions of the European Court of Human Rights* [[ARIA research report]](https://github.com/Zdv-dev-dv/ARIA-judicial-prediction-project/blob/main/ARIA_RAPPORT_DE_VRIES.pdf). ENS Paris-Saclay.
 
 **Licence:** MIT (code) — see `LICENSE`
 
